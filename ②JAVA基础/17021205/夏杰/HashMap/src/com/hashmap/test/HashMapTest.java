@@ -1,6 +1,8 @@
 package com.hashmap.test;
 
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
 
 public class HashMapTest {
 
@@ -18,9 +20,20 @@ public class HashMapTest {
 	String string = hashMap.get(china);
 	String string_2 = hashMap.get(japan);
 	String string_3 = hashMap.get(india);
+	
 	System.out.println(string);
 	System.out.println(string_2);
 	System.out.println(string_3);
+	
+	Iterator<Entry<Country, String>> iterator = hashMap.entrySet().iterator();
+	
+	while (iterator.hasNext()) {
+		Entry<Country, String> entry = iterator.next();
+		String value = entry.getValue();
+		Country key = entry.getKey();
+		System.out.println(key.toString());
+	}
+	}
 	}
 
-}
+
