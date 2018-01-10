@@ -1,0 +1,26 @@
+*{
+	<!--全局样式-->
+}
+body{
+	width: 65%;
+	margin: 0 auto 0 auto;
+}
+.box{
+width: 200px;
+height: 400px;
+font-size: 14px;
+border: 1px dashed #0099cc;
+float: left;
+margin: 5px;
+}
+.box h3{
+	color: #ffffff;
+	background-color: #0099cc;
+	margin: 0;
+	padding: 5px;
+}
+.box p{
+	line-height: 1.5em;
+	text-indent: 2em;
+	margin: 5px;
+}
