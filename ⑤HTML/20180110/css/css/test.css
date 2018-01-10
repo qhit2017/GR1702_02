@@ -1,0 +1,37 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+font-size: 14px;
+width: 950px;
+height: auto;
+margin: 0 auto;
+
+}
+
+.test{
+	background-color: #15DA28;
+	float: left;
+	border: 1px dashed blue;
+	width: 225px;
+	height: 350px;
+	margin: 3px;
+	padding: 0px; 
+}
+
+.test h3{  
+	background-color: blue;
+	color: white;
+    padding: 6px 3px 6px 10px;
+}
+
+.test p{
+
+	font-family:宋体;
+	text-indent: 2em;
+    line-height: 1.5em;
+	margin: 5px 5px 5px 5px;
+}
